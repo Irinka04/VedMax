@@ -1,0 +1,48 @@
+body {
+  /* цвет фона */
+  background-color: rgba(20, 18, 24, 1);
+  ;
+}
+
+/* Выбираем контейнер по классу */
+.continer {
+  /* Максимальная ширина */
+  max-width: 1140px;
+  /* Бордер сплошная линия красная */
+  border: 1px solid red;
+  /* Выровнить по середине */
+  margin: auto;
+}
+
+/* Дивблок в котором лежат лого и ссылки  */
+.neader {
+  /* расположим в линию по горизонту */
+  display: flex;
+  /* выровнять по центру */
+  align-items: center;
+  /* собирает в центре элементы дивблока */
+  justify-content: center;
+  /* отступ нижний */
+  margin-bottom: 90px;
+}
+
+.menu-list {
+  margin-right: auto;
+  /* отступ с лева */
+  margin-left: 67px;
+}
+
+.menu-link {
+
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  /* тест убирает подчеркивание */
+  text-decoration: none;
+  /* австояние между справа  */
+  margin-right: 24px;
+  /* отступ справа */
+  margin-left: 20px;
+  /* отступ сверху */
+  padding-top: 60px;
+}
